@@ -1,0 +1,52 @@
+
+
+header {
+    background-color:aquamarine;
+    height: 50px;
+    margin: 0 auto;
+}
+nav {
+    margin-left: 400px;
+    width: 600px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: small;
+    margin-top: 0px;
+    padding-top: 0px;
+        }
+a {
+    text-decoration: none;
+    }
+h3 {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+img {
+    width: 20px;
+    height: 20px;
+   }
+   div {
+         margin-left: 1000px;
+         margin-bottom: 10px;
+         padding-top: 1px;
+   }
+
+   .iconos {
+    display: flex;
+    justify-content: center;
+    margin-top: 4px;
+   }
+   .misiconos {
+    padding: 10px;
+    display: flex;
+    transition: 200ms ease-in;
+
+   }
+   .misiconos:hover {
+    color: white;
+     background-color: black;
+     cursor: pointer;
+    
+
+   }
